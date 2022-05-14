@@ -1,4 +1,5 @@
-/* Your task is to find the first element of an array that is not consecutive.
+/* 
+Your task is to find the first element of an array that is not consecutive.
 
 By not consecutive we mean not exactly 1 larger than the previous element of the array.
 
@@ -21,7 +22,8 @@ Swift, Ruby and Crystal: nil
 Haskell: Nothing
 Python, Rust, Scala: None
 Julia: nothing
-Nim: none(int) (See options) */
+Nim: none(int) (See options) 
+*/
 
 //Solution
 

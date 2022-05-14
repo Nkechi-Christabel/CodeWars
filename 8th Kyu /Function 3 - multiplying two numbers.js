@@ -1,4 +1,6 @@
-/* Implement a function which multiplies two numbers. */
+/* 
+Implement a function which multiplies two numbers. 
+*/
 
 //Solution
 

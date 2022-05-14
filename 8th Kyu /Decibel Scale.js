@@ -1,4 +1,5 @@
-/* The following formula is called the Decibel Scale:
+/* 
+The following formula is called the Decibel Scale:
 
 Decibel Scale Formula
 
@@ -11,7 +12,8 @@ Finally, we divide the intensity by the threshold of human hearing, also measure
 Since the threshold of human hearing involves an extremely small, long number, we need to utilize a logarithmic operation that will provide us the result in a convenient way.
 Your task is to simply calculate the loudness of a sound wave, given its intensity as a parameter to the dBScale/db_scale function.
 
-Results are automatically rounded to the nearest integer by the test cases. */
+Results are automatically rounded to the nearest integer by the test cases. 
+*/
 
 //Solution
 

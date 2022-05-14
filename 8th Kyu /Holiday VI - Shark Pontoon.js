@@ -1,4 +1,5 @@
-/* Your friend invites you out to a cool floating pontoon around 1km off the beach. Among other things, the pontoon has a huge slide that drops you out right into the ocean, a small way from a set of stairs used to climb out.
+/* 
+Your friend invites you out to a cool floating pontoon around 1km off the beach. Among other things, the pontoon has a huge slide that drops you out right into the ocean, a small way from a set of stairs used to climb out.
 
 As you plunge out of the slide into the water, you see a shark hovering in the darkness under the pontoon... Crap!
 
@@ -18,7 +19,8 @@ dolphin = a boolean, if true, you can half the swimming speed of the shark as th
 
 The pontoon, you, and the shark are all aligned in one dimension.
 
-If you make it, return "Alive!", if not, return "Shark Bait!". */
+If you make it, return "Alive!", if not, return "Shark Bait!". 
+*/
 
 //Solution
 

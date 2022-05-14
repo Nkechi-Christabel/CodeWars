@@ -13,7 +13,8 @@ Examples
 
 'B' and 'g' returns 0
 
-'0' and '?' returns -1 */
+'0' and '?' returns -1 
+*/
 
 //Solution
 

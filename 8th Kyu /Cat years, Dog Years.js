@@ -16,7 +16,8 @@ Cat Years
 Dog Years
 15 dog years for first year
 +9 dog years for second year
-+5 dog years for each year after that */
++5 dog years for each year after that
+*/
 
 //Solution
 

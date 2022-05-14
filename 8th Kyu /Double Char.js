@@ -1,4 +1,5 @@
-/* Given a string, you have to return a string in which each character (case-sensitive) is repeated once.
+/* 
+Given a string, you have to return a string in which each character (case-sensitive) is repeated once.
 
 Examples (Input -> Output):
 * "String"      -> "SSttrriinngg"
@@ -6,7 +7,8 @@ Examples (Input -> Output):
 * "1234!_ "     -> "11223344!!__  "
 
 
-Good Luck! */
+Good Luck! 
+*/
 
 //Solution
 
