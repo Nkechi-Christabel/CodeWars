@@ -1,4 +1,5 @@
-/* In this simple exercise, you will create a program that will take two lists of integers, a and b. 
+/* 
+In this simple exercise, you will create a program that will take two lists of integers, a and b. 
 
 Each list will consist of 3 positive integers above 0, representing the dimensions of cuboids a and b. 
 
@@ -8,7 +9,9 @@ For example, if the parameters passed are ([2, 2, 3], [5, 4, 1]), the volume of 
 
 Your function will be tested with pre-made examples as well as random ones.
 
-If you can, try writing it in one line of code. */
+If you can, try writing it in one line of code. 
+
+*/
 
 //Solution
 
