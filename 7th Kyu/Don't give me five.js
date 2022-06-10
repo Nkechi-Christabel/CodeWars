@@ -5,6 +5,7 @@ Examples:
 
 1,9 -> 1,2,3,4,6,7,8,9 -> Result 8
 4,17 -> 4,6,7,8,9,10,11,12,13,14,16,17 -> Result 12
+
 The result may contain fives. ;-)
 The start number will always be smaller than the end number. Both numbers can be also negative!
 
@@ -16,3 +17,16 @@ I have also created other katas. Take a look if you enjoyed this kata!
 */
 
 //Solution
+
+function dontGiveMeFive(start, end) {
+  return [...Array(end - start + 1)]
+    .map((_, i) => start + i)
+    .filter((el) => !("" + el).includes(5)).length;
+}
+
+//Or
+function dontGiveMeFive(start, end) {
+  let len = [];
+  for (let i = start; i <= end; i++) !("" + i).includes(5) && len.push(i);
+  return len.length;
+}
