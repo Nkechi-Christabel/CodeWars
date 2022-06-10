@@ -6,7 +6,6 @@ This is a repository containing CodeWars solutions of different Kyu.
 
 
 
-
 ## Tech Stack
 
 **Client:** JavaScript
