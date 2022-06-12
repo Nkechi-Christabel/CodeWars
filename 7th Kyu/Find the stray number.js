@@ -11,3 +11,9 @@ Examples
 */
 
 //Solution
+function stray(numbers, num = 0) {
+  numbers.forEach(
+    (el, i, arr) => arr[i + 1] !== el && arr[i - 1] !== el && (num = el)
+  );
+  return num;
+}
