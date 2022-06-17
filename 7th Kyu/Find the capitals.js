@@ -7,3 +7,9 @@ Test.assertSimilar( capitals('CodEWaRs'), [0,3,4,6] );
 */
 
 //Solution
+var capitals = function (word) {
+  return [...word].reduce((a, b, i) => {
+    b.toUpperCase() === b && a.push(i);
+    return a;
+  }, []);
+};
