@@ -21,3 +21,7 @@ N.B. If your solution passes all fixed tests but fails at the random tests, make
 */
 
 //Solution
+
+function inAscOrder(arr) {
+  return arr.toString() === arr.sort((a, b) => a - b).toString();
+}
