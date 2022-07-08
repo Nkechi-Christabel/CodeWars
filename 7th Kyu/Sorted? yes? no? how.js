@@ -6,3 +6,15 @@ Complete the method which accepts an array of integers, and returns one of the f
 "no" - otherwise
 You can assume the array will always be valid, and there will always be one correct answer.
 */
+
+//Solution
+
+function isSortedAndHow(array) {
+  let sorted = [...array].sort((a, b) => a - b);
+  let unsorted = array.toString();
+  return sorted.toString() === unsorted
+    ? "yes, ascending"
+    : sorted.reverse().toString() === unsorted
+    ? "yes, descending"
+    : "no";
+}
