@@ -13,3 +13,14 @@ Example
 */
 
 //Solution
+
+function duplicateCount(text) {
+  return [...text.toLowerCase()].filter(
+    (el, i, arr) => arr.indexOf(el) !== i && arr.lastIndexOf(el) === i
+  ).length;
+
+  //Or
+
+  new Set([...text.toLowerCase()].filter((el, i, arr) => arr.indexOf(el) !== i))
+    .size;
+}
