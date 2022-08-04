@@ -27,3 +27,9 @@ Please ask before translating.
 */
 
 //Solution
+
+function partsSums(ls) {
+  ls.unshift(0);
+  let sum = ls.reduce((a, b) => a + b, 0);
+  return ls.map((el) => (sum = sum - el));
+}
