@@ -9,3 +9,9 @@ Input sequence contains minimum two elements and every element is an integer.
 */
 
 //Solution
+
+function largestPairSum(numbers) {
+  return numbers
+    .sort((a, b) => b - a)
+    .reduce((a, b, _, arr) => arr[0] + arr[1]);
+}
