@@ -14,3 +14,17 @@ fizzbuzz(3) -->  [1, 2, "Fizz"]
 */
 
 //Solution
+
+function fizzbuzz(n) {
+  return [...Array(n)]
+    .map((_, i) => i + 1)
+    .map((n) =>
+      n % 5 === 0 && n % 3 === 0
+        ? "FizzBuzz"
+        : n % 3 === 0
+        ? "Fizz"
+        : n % 5 === 0
+        ? "Buzz"
+        : n
+    );
+}
