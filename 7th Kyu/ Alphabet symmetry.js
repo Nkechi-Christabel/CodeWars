@@ -13,3 +13,14 @@ Good luck!
 */
 
 //Solution
+
+function solve(arr) {
+  const alpha = "abcdefghijklmnopqrstuvwxyz";
+  return arr.map(
+    (el) =>
+      el
+        .toLowerCase()
+        .split("")
+        .filter((ch, i) => i === alpha.indexOf(ch)).length
+  );
+}
