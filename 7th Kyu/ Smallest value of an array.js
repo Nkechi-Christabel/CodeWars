@@ -6,5 +6,3 @@ Assume the first parameter will always be an array filled with at least 1 number
 min([1,2,3,4,5], 'value') // => 1
 min([1,2,3,4,5], 'index') // => 0
 */
-
-//Solution
