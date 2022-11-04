@@ -9,3 +9,9 @@ See test cases for more examples.
 
 Good luck!
 */
+
+//Solution
+
+function solve(arr) {
+  return arr.map((nums) => [...new Set(nums)].length).reduce((a, b) => a * b);
+}
