@@ -13,3 +13,9 @@ Good luck!
 */
 
 //Solution
+
+function dup(s) {
+  return s.map((w) =>
+    [...w].filter((ch, i, arr) => ch !== arr[i + 1]).join("")
+  );
+}
