@@ -15,3 +15,7 @@ Examples
 */
 
 //Solution
+
+function absentVowel(x) {
+  return [..."aeiou"].findIndex((el) => !x.includes(el));
+}
