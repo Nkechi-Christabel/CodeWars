@@ -15,3 +15,9 @@ Examples
 */
 
 //Solution
+
+function sortProducts(data) {
+  return data
+    .sort((a, b) => a.price - b.price)
+    .reduce((a, { product, price }) => console.log(product, price) || "", 0);
+}
