@@ -9,3 +9,13 @@ A few examples:
 If the average length is not an integer, use Math.round().
 The input array's length > 1
 */
+
+//Solution
+
+function averageLength(arr) {
+  return arr.map((w) =>
+    w[0].repeat(
+      Math.round(arr.reduce((a, b) => [...a, ...b]).length / arr.length)
+    )
+  );
+}
