@@ -5,3 +5,10 @@ The inputs x and y are always greater or equal to 1, so the greatest common divi
 */
 
 //Solution
+
+function mygcd(x, y) {
+  if (!y) {
+    return x;
+  }
+  return mygcd(y, x % y);
+}
