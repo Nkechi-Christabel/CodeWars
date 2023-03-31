@@ -12,5 +12,5 @@ n = 3, so I expect a 3x3 square back just like below as a string:
 //Solution
 
 function generateShape(integer) {
-  return [...Array(integer).keys()].map((_) => "+".repeat(integer)).join("\n");
+  return [...Array(integer)].map((_) => "+".repeat(integer)).join("\n");
 }
