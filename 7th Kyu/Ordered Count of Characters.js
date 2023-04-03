@@ -8,3 +8,12 @@ Example:
 
 orderedCount("abracadabra") == [['a', 5], ['b', 2], ['r', 2], ['c', 1], ['d', 1]]
 */
+
+//Solution
+
+const orderedCount = function (text) {
+  return [...new Set(text)].map((ch) => [
+    ch,
+    [...text].filter((c) => c === ch).length,
+  ]);
+};
