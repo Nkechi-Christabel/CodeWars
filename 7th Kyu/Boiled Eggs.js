@@ -14,3 +14,5 @@ Example (Input --> Output)
 5 --> 5
 10 --> 10
 */
+
+//Solution
