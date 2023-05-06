@@ -15,8 +15,6 @@ Example (Input --> Output)
 10 --> 10
 */
 
-//Solution
-
 function cookingTime(eggs) {
   return Math.ceil(eggs / 8) * 5;
 }
