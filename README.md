@@ -8,7 +8,7 @@ This is a repository containing CodeWars solutions of different Kyu.
 
 ## Screenshots
 
-<a href="https://www.codewars.com/users/Nkechi1" target="_blank" rel="noreferrer"><img src="https://www.codewars.com/users/Nkechi1/badges/large" alt="codewars badge"></a>
+<a href="https://www.codewars.com/users/Nkechi1" target="_blank" rel="noreferrer noopener"><img src="https://www.codewars.com/users/Nkechi1/badges/large" alt="codewars badge"></a>
 
 ## Lessons Learned
 
