@@ -2,21 +2,14 @@
 
 This is a repository containing CodeWars solutions of different Kyu.
 
-
-
-
-
 ## Tech Stack
 
 **Client:** JavaScript
 
-
 ## Screenshots
 
-![App Screenshot](https://www.codewars.com/users/Nkechi1/badges/large)
-
+![App Screenshot](https://www.codewars.com/users/Nkechi1)
 
 ## Lessons Learned
 
 These challenges and solutions goes to show how vast and dynamic Javascript is. I discovered unique and different ways of solving a problem. Although, Some challenges i couldn't solve, I'm pumped to keep pushing.
-
