@@ -11,7 +11,6 @@ For example (Input --> Output):
 */
 
 //Solution
-
 function twoOldestAges(ages) {
   return [...ages].sort((a, b) => a - b).slice(-2);
 }
