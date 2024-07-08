@@ -10,7 +10,6 @@ Write a function called sortGiftCode/sort_gift_code/SortGiftCode that accepts a 
 */
 
 //Solution
-
 function sortGiftCode(code) {
-  return [...code].sort().join("");
+  return [...code].sort().join('');
 }
