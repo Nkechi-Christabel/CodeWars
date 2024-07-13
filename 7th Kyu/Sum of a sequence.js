@@ -18,7 +18,6 @@ Sum of a Sequence [Hard-Core Version]
 */
 
 //Solution
-
 const sequenceSum = (begin, end, step) => {
   return Array.from(
     { length: (end - begin) / step + 1 },
