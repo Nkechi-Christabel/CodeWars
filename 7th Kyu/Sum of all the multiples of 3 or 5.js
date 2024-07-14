@@ -11,6 +11,7 @@ findSum(10) should return 33 (3 + 5 + 6 + 9 + 10)
 */
 
 //Solution
+
 function findSum(n) {
   let sum = 0;
   for (let i = 0; i <= n; i++) {
