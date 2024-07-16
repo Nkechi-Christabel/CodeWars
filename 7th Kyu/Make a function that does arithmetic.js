@@ -15,6 +15,7 @@ Try to do it without using if statements!
 */
 
 //Solution
+
 function arithmetic(a, b, operator) {
   const operators = {
     add: () => a + b,
