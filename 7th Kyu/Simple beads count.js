@@ -7,6 +7,7 @@ Implement count_red_beads(n) (in PHP count_red_beads($n); in Java, Javascript, T
 If there are less than 2 blue beads return 0.
 */
 
+//solution
 function countRedBeads(n) {
   return n < 2 ? 0 : (n - 1) * 2;
 }
