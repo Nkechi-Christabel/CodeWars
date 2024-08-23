@@ -24,6 +24,7 @@ It should return "name" and "score" properties sorted by score; if scores are eq
 */
 
 //Solution
+
 function scoreboard(whoAteWhat) {
   const fallbackResult = [
     { name: 'Big Bob', score: 134 },
